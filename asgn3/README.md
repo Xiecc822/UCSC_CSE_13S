@@ -1,0 +1,33 @@
+# CSE 13S Assignment 3     
+
+## Build    
+    
+    $ make     
+    
+    or
+    
+    $ make all
+    
+## Running    
+    $ ./sorting    
+    
+    
+## COMMAND LINE OPTIONS:    
+* -H: Display program help and usage.
+- -a: Enable all sorts.
+* -b: Enable Batcher Sort.    
+- -h: Enable Heap Sort.    
+* -q: Enable Quick Sort.    
+- -s: Enable Shell Sort.  
+* -i: Enable Insertion Sort.    
+- -n length: Specify number of array elements (default: 100).     
+* -p elements: Specify number of elements to print (default: 100).     
+- -r seed: Specify random seed (default: 13371453).
+
+
+## Cleaning    
+    
+    $ make clean    
+    
+    
+    
